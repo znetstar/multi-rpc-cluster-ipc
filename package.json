@@ -1,0 +1,33 @@
+{
+  "name": "multi-rpc-cluster-ipc",
+  "version": "1.0.0",
+  "description": "A transport for multi-rpc that uses the cluster API for communication",
+  "main": "lib/index.js",
+  "scripts": {
+    "docs": "grunt docs",
+    "build": "grunt build",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "url": "https://github.com/znetstar/multi-rpc-cluster-ipc",
+    "type": "git"
+  },
+  "author": "Zachary Boyd <zachary@zacharyboyd.nyc>",
+  "license": "MIT",
+  "peerDependencies": {
+    "multi-rpc": "^1.0.5"
+  },
+  "keywords": [
+    "cluster",
+    "rpc"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-ts": "^6.0.0-beta.21",
+    "grunt-typedoc": "^0.2.4",
+    "shelljs": "^0.8.2",
+    "typedoc": "^0.12.0",
+    "typescript": "^3.0.3"
+  }
+}
